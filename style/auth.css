@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.model{
+    border-bottom-right-radius: 50px;
+}
+
+.main-container{
+    background-image: linear-gradient(
+  230deg,
+  hsl(240deg 84% 60%) 0%,
+  hsl(227deg 85% 64%) 3%,
+  hsl(225deg 75% 75%) 16%,
+  hsl(226deg 63% 89%) 48%,
+  hsl(0deg 0% 100%) 78%,
+  hsl(0deg 0% 100%) 100%
+);
+}
+
+.nav-link{
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+}
+
+.nav-link:hover{
+    background-color: #5A82F2;
+}
+
+.texts{
+    top: 50px;
+    right: 50%;
+    margin-top: 100px;
+}
