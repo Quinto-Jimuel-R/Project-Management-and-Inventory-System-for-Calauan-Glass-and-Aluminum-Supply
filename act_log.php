@@ -48,7 +48,7 @@
                                     </thead>
                                     <tbody>
                                         <?php 
-                                        $resultLog = mysqli_query($conn, "SELECT a.*, u.name, u.user_typeFROM log a INNER JOIN user u ON a.user_id = u.user_id");
+                                        $resultLog = mysqli_query($conn, "SELECT a.*, u.name, u.user_type FROM log a INNER JOIN user u ON a.user_id = u.user_id");
                                         $counter = 1;
                                         $logs = [];
                                         $active_users = [];
