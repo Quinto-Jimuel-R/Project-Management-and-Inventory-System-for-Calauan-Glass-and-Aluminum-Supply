@@ -251,7 +251,7 @@
 <nav id="navbar-example2" class="navbar shadow-lg bg-white position-sticky top-0 px-2" style="width: 100%; padding: 30px 0px; z-index: 1000; color: #213040;">
     <div id="top" class="d-flex">
         <div id="logos" class="ms-3 d-flex align-items-center brand-container">
-            <img src="pictures/logo-removebg-preview.png" alt="" style="width: 50px;">
+            <img src="/pictures/logo-removebg-preview.png" alt="" style="width: 50px;">
             <span class="ms-2 poppins-medium brand-name" style="font-weight: 500;"><strong>Calauan Glass and Aluminum Services</strong></span>
             <span class="ms-2 poppins-medium small-brand-name" style="font-weight: 500;"><strong>CGAS</strong></span>
         </div>
