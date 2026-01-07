@@ -6,5 +6,6 @@
     {
         die('Connection Failed');
     }
+    
     return $conn;
 ?>
