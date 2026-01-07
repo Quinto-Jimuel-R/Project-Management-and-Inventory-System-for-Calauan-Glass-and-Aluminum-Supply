@@ -2,14 +2,14 @@
   "version": 2,
   "framework": null,
   "functions": {
-    "index.php": {
+    "api/api.php": {
       "runtime": "vercel-php@0.7.4"
     }
   },
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "index.php"
+      "dest": "api/api.php"
     }
   ],
   "env": {
@@ -26,4 +26,4 @@
     "LOG_CHANNEL": "stderr",
     "SESSION_DRIVER": "cookie"
   }
-}
+}   
